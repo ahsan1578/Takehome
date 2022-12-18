@@ -213,7 +213,7 @@ class UserList extends React.Component {
                 <Table users={this.getConstrainedUserList()} />
                 <div id="tableModifierOptions">
                     <div id="resultCountDisplay">
-                        {`Showing ${((this.state.currPage - 1) * this.state.resultsPerPage)+1} to ${this.state.currPage * this.state.resultsPerPage} of ${this.state.users.length} results`}
+                        {`Showing ${((this.state.currPage - 1) * this.state.resultsPerPage)+1} to ${Math.min(this.state.currPage * this.state.resultsPerPage, this.state.users.length)} of ${this.state.users.length} results`}
                     </div>
                     <div id="paginationOptions">
                             <div id="rowsPerPageContainer">

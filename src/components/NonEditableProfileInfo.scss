@@ -1,0 +1,37 @@
+#userTokenText {
+    background-color: #F7F7F7;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    width: 99%;
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #991008;
+}
+
+#userToken{
+    overflow: visible;
+    position: relative;
+}
+
+#userToken #copytooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 10px 2px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 100%;
+    overflow: visible;
+}
+
+#userTokenText:hover #copytooltiptext {
+    cursor: pointer;
+    visibility: visible;
+}
+
+#userTokenText:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.inputBox{
+    width: 50%;
+}
+
+.userInfoField{
+    display: flex;
+    margin-top: 1%;
+    // margin-bottom: 3%;
+}
+
+.userInfoFieldName{
+    display: flex;
+    margin-right: 2%;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+    width: 15%;
+}
+
+.userInfoSet{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.userInfoEdit{
+    display: flex;
+}
+
+.saveCancelButtons{
+    margin-left: 20px;
+}

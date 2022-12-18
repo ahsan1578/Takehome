@@ -1,0 +1,103 @@
+#listModifierOptions,
+#tableModifierOptions {
+    display: flex;
+    width: 87.66%;
+    margin-left: 6.167%;
+    margin-right: 6.167%;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+#searchContainer {
+    display: flex;
+    border: 1px solid #D4D4D4;
+    border-radius: 6px;
+    padding: 1.5% 5% 1.5% 5%;
+    width: 150%;
+}
+
+#searchInput {
+    border: none;
+    width: 100%;
+    font-family: "DM Sans";
+}
+
+#sortContainer, #rowsPerPageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#sortByText {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: medium;
+}
+
+#sortBy {
+    border: 1px solid #D4D4D4;
+    border-radius: 6px;
+    font-family: "DM Sans";
+}
+
+#dividerLine {
+    width: 87.66%;
+    margin-left: 6.167%;
+    margin-right: 6.167%;
+    margin-bottom: 16px;
+    height: 1px;
+    background-color: #E2E2E2;
+}
+
+#userPageHeader {
+    margin-left: 6.167%;
+    margin-bottom: 1.5%;
+    padding: 0;
+    margin-top: 5%;
+}
+
+#tableModifierOptions {
+    margin-bottom: 0;
+    margin-top: 1.5%;
+}
+
+#paginationOptions {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+
+.pageChangeButtons {
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 0px 0px #000000;
+    border-radius: 6px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    font-family: "DM Sans";
+    cursor: pointer;
+}
+
+#rowsPerPageLabel{
+    margin-right: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: medium;
+}
+
+#prevButton{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#numResults{
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 0px 0px #000000;
+    border-radius: 6px;
+    font-family: "DM Sans";
+    margin-right: 20px;
+}

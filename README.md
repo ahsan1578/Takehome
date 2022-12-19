@@ -1,4 +1,19 @@
-# Takehome Assignment
+# Takehome Assignment  
+
+To run the app, first clone the repo and then run the following commands:
+
+```
+cd Takehome  
+npm install  
+npm run serve
+```
+If you prefer to run the production version instead, run the following commands:
+```
+cd Takehome  
+npm install  
+npm run build
+```
+and then open the `index.html` inside the `compiled` directory with a browser.
 
 ---
 

@@ -1,0 +1,94 @@
+table {
+  border-collapse: separate;
+  width: 87.66%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E2E2E2;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 6.167%;
+  margin-right: 6.167%;
+  border-spacing: 0;
+}
+
+
+td {
+  border: none;
+  border-top: 1px solid #E2E2E2;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+  background: #F7F7F7;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  min-width: 20%;
+}
+
+.userTokenText {
+  background-color: #F7F7F7;
+  border: 1px solid #E2E2E2;
+  border-radius: 4px;
+  width: 99%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #991008;
+}
+
+
+.userToken .copytooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 10px 2px 10px;
+  position: absolute;
+  z-index: 1;
+  left: 31.5%;
+  overflow: visible;
+}
+
+.userTokenText:hover .copytooltiptext {
+  cursor: pointer;
+  visibility: visible;
+}
+
+.userTokenText:hover {
+  cursor: pointer;
+}
+
+.tableColDivider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  cursor: col-resize;
+  background-color: rgba(96, 94, 94, 0);
+  user-select: none;
+  height: 100%;
+}

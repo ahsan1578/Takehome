@@ -1,6 +1,6 @@
 import React from "react";
-import UserList from "./components/UserList.jsx";
-import Profile from "./components/Profile.jsx";
+import UserList from "./components/UserList/UserList.jsx";
+import Profile from "./components/Profile/Profile.jsx";
 import {
   HashRouter,
   Route,

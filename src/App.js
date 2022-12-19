@@ -4,12 +4,11 @@ import Profile from "./components/Profile/Profile.jsx";
 import {
   HashRouter,
   Route,
-  Link,
   Redirect,
   Switch
 } from "react-router-dom";
 import { createBrowserHistory } from "history";
-import "./App.scss"
+import "./App.scss";
 
 const App = () => {
   const history = createBrowserHistory();
@@ -22,7 +21,7 @@ const App = () => {
           <Redirect path="*" to="/"/>
         </Switch>
     </HashRouter>
-  )
+  );
 };
 
 export default App;
